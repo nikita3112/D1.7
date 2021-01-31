@@ -1,8 +1,8 @@
 import requests, sys, uuid
 
 auth_params = {
-    'key':"e5d58a929307c49485a2d5f92d2a8593",
-    'token':"ef80151a2aeb75342f930f1d46493f0d1aa7d4d7754dc1983fb2f3b0759a62a9",
+    'key':"KEY",
+    'token':"TOKEN",
 }
 
 base_url = "https://api.trello.com/1/{}"
