@@ -6,7 +6,7 @@ auth_params = {
 }
 
 base_url = "https://api.trello.com/1/{}"
-board_id = "6nBJ4T4c"
+board_id = "board_id"
 
 def get_column_data():
     column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
